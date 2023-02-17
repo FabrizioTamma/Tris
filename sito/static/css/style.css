@@ -1,0 +1,152 @@
+*{
+margin: 0;
+box-sizing: border-box;
+}
+
+h1{
+margin-left: auto;
+margin-right: auto;
+width: 553px;
+height: 110px;
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 96px;
+line-height: 110px;
+text-align: center;
+color: red;
+mix-blend-mode: normal;
+
+}
+
+
+h3{
+margin-left: auto;
+margin-right: auto;
+width: 500px;
+height: 100px;
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 70px;
+line-height: 110px;
+text-align: center;
+color: blue;
+mix-blend-mode: normal;
+
+}
+
+
+.centro{
+
+display: flex;
+line-height: center;
+margin-left: auto;
+margin-right: auto;
+flex-direction: column;
+
+}
+
+.trisGrid{
+
+display: flex;
+flex-direction: column;
+margin-left: auto;
+margin-right: auto;
+margin-top: 20px;
+}
+
+.row{
+
+display: flex;
+}
+
+.col{
+
+width: 100px;
+height: 100px;
+background: white;
+border: 1px solid black;
+
+}
+
+.gridBtn{
+
+display: block;
+width: 100%;
+height: 100%;
+background-color:red;
+}
+
+button{
+
+padding: 10px 20px;
+border-radius: 10px;
+background-color: var(--orange);
+color: white;
+border-color: var(--orange);
+font-size: 18px;
+font-weight: 600;
+cursor: pointer;
+margin-left: 915px;
+margin-top: 10px;
+
+}
+
+.player1, .player2{
+  position: relative;
+}
+
+.player1:before{
+  content: "";
+  height: 2px;
+  width: 100%;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  background-color: black;
+  transform: translate(-50%,-50%) rotate(45deg);
+}
+
+.player1:after{
+  content: "";
+  height: 2px;
+  width: 100%;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  background-color: black;
+  transform: translate(-50%,-50%) rotate(-45deg);
+}
+
+.player2:before{
+  content: "";
+  height: 70%;
+  width: 70%;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  border: 2px solid black;
+  border-radius: 50%;
+  transform: translate(-50%,-50%);
+}
+
+.descrizione p{
+text-align: center;
+width: 1086px;
+height: 231px;
+font-family: 'Open Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 22px;
+line-height: 150%;
+color: blue;
+margin-left: auto;
+margin-right: auto;
+color: blue;
+}
+
+body{
+background-image: url(../images/sfondo.png);
+background-size: 100%;
+}
