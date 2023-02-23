@@ -4,8 +4,7 @@ box-sizing: border-box;
 }
 
 h1{
-margin-left: auto;
-margin-right: auto;
+
 width: 553px;
 height: 110px;
 font-family: 'Roboto';
@@ -13,16 +12,15 @@ font-style: normal;
 font-weight: 400;
 font-size: 96px;
 line-height: 110px;
-text-align: center;
+text-align: left;
 color: red;
 mix-blend-mode: normal;
-
+margin-left: 10px;
 }
 
 
 h3{
-margin-left: auto;
-margin-right: auto;
+
 width: 500px;
 height: 100px;
 font-family: 'Roboto';
@@ -30,9 +28,10 @@ font-style: normal;
 font-weight: 400;
 font-size: 70px;
 line-height: 110px;
-text-align: center;
+text-align: left;
 color: blue;
 mix-blend-mode: normal;
+margin-left: 10px;
 
 }
 
@@ -51,14 +50,13 @@ flex-direction: column;
 
 display: flex;
 flex-direction: column;
-margin-left: auto;
-margin-right: auto;
-margin-top: 20px;
+margin-left: 15%;
+
 }
 
 .row{
-
 display: flex;
+
 }
 
 .col{
@@ -88,7 +86,7 @@ border-color: var(--orange);
 font-size: 18px;
 font-weight: 600;
 cursor: pointer;
-margin-left: 915px;
+margin-left: 28%;
 margin-top: 10px;
 
 }
@@ -132,7 +130,7 @@ margin-top: 10px;
 }
 
 .descrizione p{
-text-align: center;
+text-align: left;
 width: 1086px;
 height: 231px;
 font-family: 'Open Sans';
@@ -141,9 +139,8 @@ font-weight: 400;
 font-size: 22px;
 line-height: 150%;
 color: blue;
-margin-left: auto;
-margin-right: auto;
 color: blue;
+margin-left: 10px;
 }
 
 body{
