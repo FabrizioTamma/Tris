@@ -9,19 +9,19 @@ let links = document.querySelectorAll(".gridBtn"),
     cellIsOccupied = true
 
 function checkWin(player) {
-  // Controllo delle righe
+
   for(let i=0; i<3; i++) {
     if(grid[i][0] === player && grid[i][1] === player && grid[i][2] === player) {
       return true
     }
   }
-  // Controllo delle colonne
+
   for(let j=0; j<3; j++) {
     if(grid[0][j] === player && grid[1][j] === player && grid[2][j] === player) {
       return true
     }
   }
-  // Controllo delle diagonali
+
   if(grid[0][0] === player && grid[1][1] === player && grid[2][2] === player) {
     return true
   }
@@ -63,8 +63,8 @@ for(let i = 0; i < links.length; i++){
         console.log("Giocatore O ha vinto!")
         alert("Giocatore O ha vinto!")
       } else if(checkDraw()) {
-        console.log("Pareggio!")
-        alert("Pareggio!")
+        console.log("Patta!")
+        alert("Patta!")
       } else {
         if(currentPlayer === 1){
           currentPlayer = 2
