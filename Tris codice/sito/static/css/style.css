@@ -12,10 +12,11 @@ font-style: normal;
 font-weight: 400;
 font-size: 96px;
 line-height: 110px;
-text-align: left;
+text-align: center;
 color: red;
 mix-blend-mode: normal;
-margin-left: 10px;
+margin-left: auto;
+margin-right: auto;
 }
 
 
@@ -28,10 +29,11 @@ font-style: normal;
 font-weight: 400;
 font-size: 70px;
 line-height: 110px;
-text-align: left;
+text-align: center;
 color: blue;
 mix-blend-mode: normal;
-margin-left: 10px;
+margin-left: auto;
+margin-right: auto;
 
 }
 
@@ -50,8 +52,8 @@ flex-direction: column;
 
 display: flex;
 flex-direction: column;
-margin-left: 15%;
-
+margin-left: auto;
+margin-right: auto;
 }
 
 .row{
@@ -77,18 +79,16 @@ background-color:red;
 }
 
 button{
-
 padding: 10px 20px;
 border-radius: 10px;
 background-color: var(--orange);
-color: white;
+color: blue;
 border-color: var(--orange);
 font-size: 18px;
 font-weight: 600;
 cursor: pointer;
-margin-left: 28%;
+margin-left: 46.5%;
 margin-top: 10px;
-
 }
 
 .player1, .player2{
@@ -130,7 +130,7 @@ margin-top: 10px;
 }
 
 .descrizione p{
-text-align: left;
+text-align: center;
 width: 1086px;
 height: 231px;
 font-family: 'Open Sans';
@@ -140,7 +140,8 @@ font-size: 22px;
 line-height: 150%;
 color: blue;
 color: blue;
-margin-left: 10px;
+margin-left: auto;
+margin-right: auto;
 }
 
 body{
