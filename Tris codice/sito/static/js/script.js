@@ -31,9 +31,12 @@ console.log(e.currentTarget.dataset)
 
          if(currentPlayer === 1){
            currentPlayer = 2
-         }else{
+           output.innerHTML = "tocca al G2"
+         }else {
            currentPlayer = 1
+           output.innerHTML = "tocca al G1"
          }
+         console.log(currentPlayer)
        }
 })
 }
@@ -52,9 +55,11 @@ function getEmptyCells(grid) {
       }
     }
   }
+  return EmptyCells
 }
 
-function getBestMove(){
+function getBestMove(grid,currentPlayer){
+  let EmptyCells = getEmptyCells(grid)
   for(let i = 0; i <= 2; i++){
     for (let j = 0; j < 2; j++) {
       getEmptyCells(grid)
